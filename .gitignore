@@ -1,0 +1,18 @@
+# Backend
+target/
+*.class
+*.jar
+*.war
+
+# Frontend
+node_modules/
+build/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
