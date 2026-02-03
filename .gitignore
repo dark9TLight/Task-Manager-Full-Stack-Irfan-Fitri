@@ -1,13 +1,18 @@
+**Add this to .gitignore:**
+```
 # Backend
-target/
-*.class
-*.jar
-*.war
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
 
 # Frontend
-node_modules/
-build/
-.env
+frontend/node_modules/
+frontend/build/
+
+# Environment files
+*.env
+.env.local
 
 # IDE
 .idea/
